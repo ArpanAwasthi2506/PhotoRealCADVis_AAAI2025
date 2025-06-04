@@ -16,3 +16,5 @@ __pycache__/
 *.temp
 file_lists/*.txt
 !file_lists/all_files.txt
+file_lists/*.txt
+!file_lists/all_files.txt
