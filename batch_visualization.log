@@ -1,0 +1,299 @@
+2025-06-04 16:14:46,528 - INFO - Found 135 CAD files for processing
+2025-06-04 16:14:46,529 - INFO - Processing file 1/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010539/00010539_919044145dd24288a1945b5c_step_001.ply
+2025-06-04 16:14:52,299 - INFO - ✅ Visualization successful
+2025-06-04 16:14:52,299 - INFO - Processing file 2/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010617/00010617_361c9786cd894debb4689c63_step_014.ply
+2025-06-04 16:15:33,364 - INFO - ✅ Visualization successful
+2025-06-04 16:15:33,364 - INFO - Processing file 3/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010524/00010524_a8adf76bfb3d4789996949d7_step_000.ply
+2025-06-04 16:15:39,455 - INFO - ✅ Visualization successful
+2025-06-04 16:15:39,455 - INFO - Processing file 4/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010998/00010998_8a21002f126e4425a811e70a_step_002.ply
+2025-06-04 16:15:45,252 - INFO - ✅ Visualization successful
+2025-06-04 16:15:45,252 - INFO - Processing file 5/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.ply
+2025-06-04 16:15:50,081 - INFO - ✅ Visualization successful
+2025-06-04 16:15:50,081 - INFO - Processing file 6/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_step_004.ply
+2025-06-04 16:15:56,049 - INFO - ✅ Visualization successful
+2025-06-04 16:15:56,049 - INFO - Processing file 7/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010936/00010936_c2543b32452d42a3aa48d645_step_001.ply
+2025-06-04 16:16:01,352 - INFO - ✅ Visualization successful
+2025-06-04 16:16:01,352 - INFO - Processing file 8/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010533/00010533_a8adf76bfb3d4789996949d7_step_009.ply
+2025-06-04 16:16:07,197 - INFO - ✅ Visualization successful
+2025-06-04 16:16:07,197 - INFO - Processing file 9/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010428/00010428_fc56088abf10474bba06f659_step_003.ply
+2025-06-04 16:16:12,329 - INFO - ✅ Visualization successful
+2025-06-04 16:16:12,329 - INFO - Processing file 10/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010865/00010865_5682a09dbce743909527fbc7_step_010.ply
+2025-06-04 16:16:18,597 - INFO - ✅ Visualization successful
+2025-06-04 16:16:18,597 - INFO - Processing file 11/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010336/00010336_2875a9019ad348369fd1285e_step_000.ply
+2025-06-04 16:16:23,416 - INFO - ✅ Visualization successful
+2025-06-04 16:16:23,416 - INFO - Processing file 12/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00011003/00011003_9584c16dc8f9433d84b75bd9_step_000.ply
+2025-06-04 16:16:29,568 - INFO - ✅ Visualization successful
+2025-06-04 16:16:29,569 - INFO - Processing file 13/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010801/00010801_45d813d16cbb43598ad59c25_step_000.ply
+2025-06-04 16:16:47,872 - INFO - ✅ Visualization successful
+2025-06-04 16:16:47,873 - INFO - Processing file 14/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010429/00010429_fc56088abf10474bba06f659_step_004.ply
+2025-06-04 16:16:59,485 - INFO - ✅ Visualization successful
+2025-06-04 16:16:59,486 - INFO - Processing file 15/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00011044/00011044_99c0bdce054243a2a4382a47_step_000.ply
+2025-06-04 16:17:05,768 - INFO - ✅ Visualization successful
+2025-06-04 16:17:05,768 - INFO - Processing file 16/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010256/00010256_8a9f3a1982a94a7da2ffa50f_step_000.ply
+2025-06-04 16:17:11,076 - INFO - ✅ Visualization successful
+2025-06-04 16:17:11,076 - INFO - Processing file 17/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010548/00010548_919044145dd24288a1945b5c_step_010.ply
+2025-06-04 16:17:16,587 - INFO - ✅ Visualization successful
+2025-06-04 16:17:16,587 - INFO - Processing file 18/135: data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_step_000.ply
+2025-06-04 16:18:16,693 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPEdges/abc_0001_step_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_step_000.ply']' timed out after 60 seconds
+2025-06-04 16:18:16,693 - INFO - Processing file 19/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000282/00000282_5a6ef3285b89452ea6b390e7_step_003.ply
+2025-06-04 16:18:24,630 - INFO - ✅ Visualization successful
+2025-06-04 16:18:24,630 - INFO - Processing file 20/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000146/00000146_1d9ece3a9c8348a5a11e7153_step_000.ply
+2025-06-04 16:18:33,291 - INFO - ✅ Visualization successful
+2025-06-04 16:18:33,291 - INFO - Processing file 21/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000139/00000139_2fc54fcd110d4f49969163c4_step_002.ply
+2025-06-04 16:18:42,285 - INFO - ✅ Visualization successful
+2025-06-04 16:18:42,285 - INFO - Processing file 22/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000120/00000120_ce24e0cbec8e45c89735d148_step_012.ply
+2025-06-04 16:18:48,178 - INFO - ✅ Visualization successful
+2025-06-04 16:18:48,178 - INFO - Processing file 23/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000290/00000290_58f8ff46b7564e989f9695b7_step_003.ply
+2025-06-04 16:18:54,919 - INFO - ✅ Visualization successful
+2025-06-04 16:18:54,919 - INFO - Processing file 24/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000248/00000248_e87554b09cdc48c3add39db9_step_000.ply
+2025-06-04 16:19:55,024 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000248/00000248_e87554b09cdc48c3add39db9_step_000.ply']' timed out after 60 seconds
+2025-06-04 16:19:55,024 - INFO - Processing file 25/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000230/00000230_a01a91841c8f48a5bf75924b_step_000.ply
+2025-06-04 16:20:55,132 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000230/00000230_a01a91841c8f48a5bf75924b_step_000.ply']' timed out after 60 seconds
+2025-06-04 16:20:55,132 - INFO - Processing file 26/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000342/00000342_fe70be720f7e49fa90ded969_step_001.ply
+2025-06-04 16:21:35,448 - INFO - ✅ Visualization successful
+2025-06-04 16:21:35,449 - INFO - Processing file 27/135: data_samples/abc_v1.0_BREPEdges/abc_0000_step_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_step_001.ply
+2025-06-04 16:21:44,668 - INFO - ✅ Visualization successful
+2025-06-04 16:21:44,668 - INFO - Processing file 28/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010539/00010539_919044145dd24288a1945b5c_step_001.ply
+2025-06-04 16:21:55,454 - INFO - ✅ Visualization successful
+2025-06-04 16:21:55,455 - INFO - Processing file 29/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010617/00010617_361c9786cd894debb4689c63_step_014.ply
+2025-06-04 16:22:06,690 - INFO - ✅ Visualization successful
+2025-06-04 16:22:06,690 - INFO - Processing file 30/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010524/00010524_a8adf76bfb3d4789996949d7_step_000.ply
+2025-06-04 16:22:24,690 - INFO - ✅ Visualization successful
+2025-06-04 16:22:24,691 - INFO - Processing file 31/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010998/00010998_8a21002f126e4425a811e70a_step_002.ply
+2025-06-04 16:23:24,791 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010998/00010998_8a21002f126e4425a811e70a_step_002.ply']' timed out after 60 seconds
+2025-06-04 16:23:24,791 - INFO - Processing file 32/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.ply
+2025-06-04 16:24:24,895 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.ply']' timed out after 60 seconds
+2025-06-04 16:24:24,895 - INFO - Processing file 33/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_step_004.ply
+2025-06-04 16:25:24,996 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_step_004.ply']' timed out after 60 seconds
+2025-06-04 16:25:24,996 - INFO - Processing file 34/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010936/00010936_c2543b32452d42a3aa48d645_step_001.ply
+2025-06-04 16:26:25,098 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010936/00010936_c2543b32452d42a3aa48d645_step_001.ply']' timed out after 60 seconds
+2025-06-04 16:26:25,109 - INFO - Processing file 35/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010533/00010533_a8adf76bfb3d4789996949d7_step_009.ply
+2025-06-04 16:27:25,205 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010533/00010533_a8adf76bfb3d4789996949d7_step_009.ply']' timed out after 60 seconds
+2025-06-04 16:27:25,206 - INFO - Processing file 36/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010428/00010428_fc56088abf10474bba06f659_step_003.ply
+2025-06-04 16:28:25,258 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010428/00010428_fc56088abf10474bba06f659_step_003.ply']' timed out after 60 seconds
+2025-06-04 16:28:25,258 - INFO - Processing file 37/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010865/00010865_5682a09dbce743909527fbc7_step_010.ply
+2025-06-04 16:29:01,207 - INFO - ✅ Visualization successful
+2025-06-04 16:29:01,207 - INFO - Processing file 38/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010336/00010336_2875a9019ad348369fd1285e_step_000.ply
+2025-06-04 16:29:06,492 - INFO - ✅ Visualization successful
+2025-06-04 16:29:06,492 - INFO - Processing file 39/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011003/00011003_9584c16dc8f9433d84b75bd9_step_000.ply
+2025-06-04 16:29:10,334 - INFO - ✅ Visualization successful
+2025-06-04 16:29:10,334 - INFO - Processing file 40/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010801/00010801_45d813d16cbb43598ad59c25_step_000.ply
+2025-06-04 16:29:15,159 - INFO - ✅ Visualization successful
+2025-06-04 16:29:15,169 - INFO - Processing file 41/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010429/00010429_fc56088abf10474bba06f659_step_004.ply
+2025-06-04 16:29:19,717 - INFO - ✅ Visualization successful
+2025-06-04 16:29:19,717 - INFO - Processing file 42/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00011044/00011044_99c0bdce054243a2a4382a47_step_000.ply
+2025-06-04 16:29:25,637 - INFO - ✅ Visualization successful
+2025-06-04 16:29:25,638 - INFO - Processing file 43/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010256/00010256_8a9f3a1982a94a7da2ffa50f_step_000.ply
+2025-06-04 16:29:32,784 - INFO - ✅ Visualization successful
+2025-06-04 16:29:32,784 - INFO - Processing file 44/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010548/00010548_919044145dd24288a1945b5c_step_010.ply
+2025-06-04 16:29:37,400 - INFO - ✅ Visualization successful
+2025-06-04 16:29:37,401 - INFO - Processing file 45/135: data_samples/abc_v1.0_BREPJunctions_/abc_0001_step_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_step_000.ply
+2025-06-04 16:29:43,252 - INFO - ✅ Visualization successful
+2025-06-04 16:29:43,252 - INFO - Processing file 46/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000282/00000282_5a6ef3285b89452ea6b390e7_step_003.ply
+2025-06-04 16:29:47,221 - INFO - ✅ Visualization successful
+2025-06-04 16:29:47,221 - INFO - Processing file 47/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000146/00000146_1d9ece3a9c8348a5a11e7153_step_000.ply
+2025-06-04 16:29:52,081 - INFO - ✅ Visualization successful
+2025-06-04 16:29:52,082 - INFO - Processing file 48/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000139/00000139_2fc54fcd110d4f49969163c4_step_002.ply
+2025-06-04 16:30:02,068 - INFO - ✅ Visualization successful
+2025-06-04 16:30:02,068 - INFO - Processing file 49/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000120/00000120_ce24e0cbec8e45c89735d148_step_012.ply
+2025-06-04 16:30:08,204 - INFO - ✅ Visualization successful
+2025-06-04 16:30:08,204 - INFO - Processing file 50/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000290/00000290_58f8ff46b7564e989f9695b7_step_003.ply
+2025-06-04 16:30:17,338 - INFO - ✅ Visualization successful
+2025-06-04 16:30:17,338 - INFO - Processing file 51/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000248/00000248_e87554b09cdc48c3add39db9_step_000.ply
+2025-06-04 16:30:22,034 - INFO - ✅ Visualization successful
+2025-06-04 16:30:22,034 - INFO - Processing file 52/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000230/00000230_a01a91841c8f48a5bf75924b_step_000.ply
+2025-06-04 16:30:28,065 - INFO - ✅ Visualization successful
+2025-06-04 16:30:28,066 - INFO - Processing file 53/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000342/00000342_fe70be720f7e49fa90ded969_step_001.ply
+2025-06-04 16:30:32,984 - INFO - ✅ Visualization successful
+2025-06-04 16:30:32,984 - INFO - Processing file 54/135: data_samples/abc_v1.0_BREPJunctions_/abc_0000_step_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_step_001.ply
+2025-06-04 16:30:40,014 - INFO - ✅ Visualization successful
+2025-06-04 16:30:40,014 - INFO - Processing file 55/135: data_samples/step/abc_0001_step_v00/00010539/00010539_919044145dd24288a1945b5c_step_001.step
+2025-06-04 16:30:48,361 - INFO - ✅ Visualization successful
+2025-06-04 16:30:48,361 - INFO - Processing file 56/135: data_samples/step/abc_0001_step_v00/00010617/00010617_361c9786cd894debb4689c63_step_014.step
+2025-06-04 16:30:53,840 - INFO - ✅ Visualization successful
+2025-06-04 16:30:53,841 - INFO - Processing file 57/135: data_samples/step/abc_0001_step_v00/00010524/00010524_a8adf76bfb3d4789996949d7_step_000.step
+2025-06-04 16:30:59,793 - INFO - ✅ Visualization successful
+2025-06-04 16:30:59,793 - INFO - Processing file 58/135: data_samples/step/abc_0001_step_v00/00010998/00010998_8a21002f126e4425a811e70a_step_002.step
+2025-06-04 16:31:05,445 - INFO - ✅ Visualization successful
+2025-06-04 16:31:05,445 - INFO - Processing file 59/135: data_samples/step/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.step
+2025-06-04 16:31:10,249 - INFO - ✅ Visualization successful
+2025-06-04 16:31:10,250 - INFO - Processing file 60/135: data_samples/step/abc_0001_step_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_step_004.step
+2025-06-04 16:31:15,032 - INFO - ✅ Visualization successful
+2025-06-04 16:31:15,032 - INFO - Processing file 61/135: data_samples/step/abc_0001_step_v00/00010936/00010936_c2543b32452d42a3aa48d645_step_001.step
+2025-06-04 16:31:19,728 - INFO - ✅ Visualization successful
+2025-06-04 16:31:19,728 - INFO - Processing file 62/135: data_samples/step/abc_0001_step_v00/00010533/00010533_a8adf76bfb3d4789996949d7_step_009.step
+2025-06-04 16:31:24,296 - INFO - ✅ Visualization successful
+2025-06-04 16:31:24,296 - INFO - Processing file 63/135: data_samples/step/abc_0001_step_v00/00010428/00010428_fc56088abf10474bba06f659_step_003.step
+2025-06-04 16:31:29,413 - INFO - ✅ Visualization successful
+2025-06-04 16:31:29,413 - INFO - Processing file 64/135: data_samples/step/abc_0001_step_v00/00010865/00010865_5682a09dbce743909527fbc7_step_010.step
+2025-06-04 16:31:36,268 - INFO - ✅ Visualization successful
+2025-06-04 16:31:36,268 - INFO - Processing file 65/135: data_samples/step/abc_0001_step_v00/00010336/00010336_2875a9019ad348369fd1285e_step_000.step
+2025-06-04 16:31:43,013 - INFO - ✅ Visualization successful
+2025-06-04 16:31:43,013 - INFO - Processing file 66/135: data_samples/step/abc_0001_step_v00/00011003/00011003_9584c16dc8f9433d84b75bd9_step_000.step
+2025-06-04 16:31:49,432 - INFO - ✅ Visualization successful
+2025-06-04 16:31:49,432 - INFO - Processing file 67/135: data_samples/step/abc_0001_step_v00/00010801/00010801_45d813d16cbb43598ad59c25_step_000.step
+2025-06-04 16:31:56,565 - INFO - ✅ Visualization successful
+2025-06-04 16:31:56,565 - INFO - Processing file 68/135: data_samples/step/abc_0001_step_v00/00010429/00010429_fc56088abf10474bba06f659_step_004.step
+2025-06-04 16:32:02,458 - INFO - ✅ Visualization successful
+2025-06-04 16:32:02,458 - INFO - Processing file 69/135: data_samples/step/abc_0001_step_v00/00011044/00011044_99c0bdce054243a2a4382a47_step_000.step
+2025-06-04 16:32:08,821 - INFO - ✅ Visualization successful
+2025-06-04 16:32:08,821 - INFO - Processing file 70/135: data_samples/step/abc_0001_step_v00/00010256/00010256_8a9f3a1982a94a7da2ffa50f_step_000.step
+2025-06-04 16:32:15,597 - INFO - ✅ Visualization successful
+2025-06-04 16:32:15,597 - INFO - Processing file 71/135: data_samples/step/abc_0001_step_v00/00010548/00010548_919044145dd24288a1945b5c_step_010.step
+2025-06-04 16:32:21,868 - INFO - ✅ Visualization successful
+2025-06-04 16:32:21,868 - INFO - Processing file 72/135: data_samples/step/abc_0001_step_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_step_000.step
+2025-06-04 16:32:29,373 - INFO - ✅ Visualization successful
+2025-06-04 16:32:29,374 - INFO - Processing file 73/135: data_samples/step/abc_0000_step_v00/00000282/00000282_5a6ef3285b89452ea6b390e7_step_003.step
+2025-06-04 16:32:34,072 - INFO - ✅ Visualization successful
+2025-06-04 16:32:34,072 - INFO - Processing file 74/135: data_samples/step/abc_0000_step_v00/00000146/00000146_1d9ece3a9c8348a5a11e7153_step_000.step
+2025-06-04 16:33:18,573 - INFO - ✅ Visualization successful
+2025-06-04 16:33:18,573 - INFO - Processing file 75/135: data_samples/step/abc_0000_step_v00/00000139/00000139_2fc54fcd110d4f49969163c4_step_002.step
+2025-06-04 16:33:31,920 - INFO - ✅ Visualization successful
+2025-06-04 16:33:31,920 - INFO - Processing file 76/135: data_samples/step/abc_0000_step_v00/00000120/00000120_ce24e0cbec8e45c89735d148_step_012.step
+2025-06-04 16:33:43,770 - INFO - ✅ Visualization successful
+2025-06-04 16:33:43,771 - INFO - Processing file 77/135: data_samples/step/abc_0000_step_v00/00000290/00000290_58f8ff46b7564e989f9695b7_step_003.step
+2025-06-04 16:33:49,789 - INFO - ✅ Visualization successful
+2025-06-04 16:33:49,789 - INFO - Processing file 78/135: data_samples/step/abc_0000_step_v00/00000248/00000248_e87554b09cdc48c3add39db9_step_000.step
+2025-06-04 16:33:55,447 - INFO - ✅ Visualization successful
+2025-06-04 16:33:55,447 - INFO - Processing file 79/135: data_samples/step/abc_0000_step_v00/00000230/00000230_a01a91841c8f48a5bf75924b_step_000.step
+2025-06-04 16:34:36,735 - INFO - ✅ Visualization successful
+2025-06-04 16:34:36,735 - INFO - Processing file 80/135: data_samples/step/abc_0000_step_v00/00000342/00000342_fe70be720f7e49fa90ded969_step_001.step
+2025-06-04 16:34:43,308 - INFO - ✅ Visualization successful
+2025-06-04 16:34:43,308 - INFO - Processing file 81/135: data_samples/step/abc_0000_step_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_step_001.step
+2025-06-04 16:35:44,270 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/step/abc_0000_step_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_step_001.step']' timed out after 60 seconds
+2025-06-04 16:35:44,270 - INFO - Processing file 82/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010539/00010539_919044145dd24288a1945b5c_step_001.ply
+2025-06-04 16:36:36,674 - INFO - ✅ Visualization successful
+2025-06-04 16:36:36,675 - INFO - Processing file 83/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010617/00010617_361c9786cd894debb4689c63_step_014.ply
+2025-06-04 16:37:06,864 - INFO - ✅ Visualization successful
+2025-06-04 16:37:06,864 - INFO - Processing file 84/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010524/00010524_a8adf76bfb3d4789996949d7_step_000.ply
+2025-06-04 16:37:21,213 - INFO - ✅ Visualization successful
+2025-06-04 16:37:21,213 - INFO - Processing file 85/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010998/00010998_8a21002f126e4425a811e70a_step_002.ply
+2025-06-04 16:37:44,617 - INFO - ✅ Visualization successful
+2025-06-04 16:37:44,617 - INFO - Processing file 86/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.ply
+2025-06-04 16:38:45,565 - ERROR - ❌ Visualization failed: Command '['python', 'visualize.py', 'data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00011014/00011014_9d086bb83b934224a3460726_step_002.ply']' timed out after 60 seconds
+2025-06-04 16:38:45,565 - INFO - Processing file 87/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_step_004.ply
+2025-06-04 16:38:51,082 - INFO - ✅ Visualization successful
+2025-06-04 16:38:51,082 - INFO - Processing file 88/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010936/00010936_c2543b32452d42a3aa48d645_step_001.ply
+2025-06-04 16:38:56,105 - INFO - ✅ Visualization successful
+2025-06-04 16:38:56,105 - INFO - Processing file 89/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010533/00010533_a8adf76bfb3d4789996949d7_step_009.ply
+2025-06-04 16:39:07,278 - INFO - ✅ Visualization successful
+2025-06-04 16:39:07,279 - INFO - Processing file 90/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010428/00010428_fc56088abf10474bba06f659_step_003.ply
+2025-06-04 16:39:13,590 - INFO - ✅ Visualization successful
+2025-06-04 16:39:13,591 - INFO - Processing file 91/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010865/00010865_5682a09dbce743909527fbc7_step_010.ply
+2025-06-04 16:39:18,250 - INFO - ✅ Visualization successful
+2025-06-04 16:39:18,250 - INFO - Processing file 92/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010336/00010336_2875a9019ad348369fd1285e_step_000.ply
+2025-06-04 16:39:22,611 - INFO - ✅ Visualization successful
+2025-06-04 16:39:22,611 - INFO - Processing file 93/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00011003/00011003_9584c16dc8f9433d84b75bd9_step_000.ply
+2025-06-04 16:39:28,301 - INFO - ✅ Visualization successful
+2025-06-04 16:39:28,301 - INFO - Processing file 94/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010801/00010801_45d813d16cbb43598ad59c25_step_000.ply
+2025-06-04 16:39:36,677 - INFO - ✅ Visualization successful
+2025-06-04 16:39:36,677 - INFO - Processing file 95/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010429/00010429_fc56088abf10474bba06f659_step_004.ply
+2025-06-04 16:39:41,424 - INFO - ✅ Visualization successful
+2025-06-04 16:39:41,424 - INFO - Processing file 96/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00011044/00011044_99c0bdce054243a2a4382a47_step_000.ply
+2025-06-04 16:39:49,712 - INFO - ✅ Visualization successful
+2025-06-04 16:39:49,712 - INFO - Processing file 97/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010256/00010256_8a9f3a1982a94a7da2ffa50f_step_000.ply
+2025-06-04 16:39:56,605 - INFO - ✅ Visualization successful
+2025-06-04 16:39:56,605 - INFO - Processing file 98/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010548/00010548_919044145dd24288a1945b5c_step_010.ply
+2025-06-04 16:40:03,067 - INFO - ✅ Visualization successful
+2025-06-04 16:40:03,067 - INFO - Processing file 99/135: data_samples/abc_v1.0_BoundaryLabels/abc_0001_step_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_step_000.ply
+2025-06-04 16:40:10,650 - INFO - ✅ Visualization successful
+2025-06-04 16:40:10,650 - INFO - Processing file 100/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000282/00000282_5a6ef3285b89452ea6b390e7_step_003.ply
+2025-06-04 16:40:17,501 - INFO - ✅ Visualization successful
+2025-06-04 16:40:17,501 - INFO - Processing file 101/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000146/00000146_1d9ece3a9c8348a5a11e7153_step_000.ply
+2025-06-04 16:40:32,999 - INFO - ✅ Visualization successful
+2025-06-04 16:40:32,999 - INFO - Processing file 102/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000139/00000139_2fc54fcd110d4f49969163c4_step_002.ply
+2025-06-04 16:40:42,291 - INFO - ✅ Visualization successful
+2025-06-04 16:40:42,291 - INFO - Processing file 103/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000120/00000120_ce24e0cbec8e45c89735d148_step_012.ply
+2025-06-04 16:40:47,771 - INFO - ✅ Visualization successful
+2025-06-04 16:40:47,771 - INFO - Processing file 104/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000290/00000290_58f8ff46b7564e989f9695b7_step_003.ply
+2025-06-04 16:40:55,569 - INFO - ✅ Visualization successful
+2025-06-04 16:40:55,569 - INFO - Processing file 105/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000248/00000248_e87554b09cdc48c3add39db9_step_000.ply
+2025-06-04 16:41:01,216 - INFO - ✅ Visualization successful
+2025-06-04 16:41:01,217 - INFO - Processing file 106/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000230/00000230_a01a91841c8f48a5bf75924b_step_000.ply
+2025-06-04 16:41:08,552 - INFO - ✅ Visualization successful
+2025-06-04 16:41:08,553 - INFO - Processing file 107/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000342/00000342_fe70be720f7e49fa90ded969_step_001.ply
+2025-06-04 16:41:13,952 - INFO - ✅ Visualization successful
+2025-06-04 16:41:13,952 - INFO - Processing file 108/135: data_samples/abc_v1.0_BoundaryLabels/abc_0000_step_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_step_001.ply
+2025-06-04 16:41:20,508 - INFO - ✅ Visualization successful
+2025-06-04 16:41:20,508 - INFO - Processing file 109/135: data_samples/obj/abc_0001_obj_v00/00010539/00010539_919044145dd24288a1945b5c_trimesh_001.obj
+2025-06-04 16:41:25,480 - INFO - ✅ Visualization successful
+2025-06-04 16:41:25,480 - INFO - Processing file 110/135: data_samples/obj/abc_0001_obj_v00/00010617/00010617_361c9786cd894debb4689c63_trimesh_014.obj
+2025-06-04 16:41:32,328 - INFO - ✅ Visualization successful
+2025-06-04 16:41:32,328 - INFO - Processing file 111/135: data_samples/obj/abc_0001_obj_v00/00010524/00010524_a8adf76bfb3d4789996949d7_trimesh_000.obj
+2025-06-04 16:41:37,527 - INFO - ✅ Visualization successful
+2025-06-04 16:41:37,528 - INFO - Processing file 112/135: data_samples/obj/abc_0001_obj_v00/00010998/00010998_8a21002f126e4425a811e70a_trimesh_002.obj
+2025-06-04 16:41:42,567 - INFO - ✅ Visualization successful
+2025-06-04 16:41:42,568 - INFO - Processing file 113/135: data_samples/obj/abc_0001_obj_v00/00011014/00011014_9d086bb83b934224a3460726_trimesh_002.obj
+2025-06-04 16:41:49,557 - INFO - ✅ Visualization successful
+2025-06-04 16:41:49,557 - INFO - Processing file 114/135: data_samples/obj/abc_0001_obj_v00/00011128/00011128_db6e2de6f4ae4ec493ebe2aa_trimesh_004.obj
+2025-06-04 16:41:59,194 - INFO - ✅ Visualization successful
+2025-06-04 16:41:59,194 - INFO - Processing file 115/135: data_samples/obj/abc_0001_obj_v00/00010936/00010936_c2543b32452d42a3aa48d645_trimesh_001.obj
+2025-06-04 16:42:05,073 - INFO - ✅ Visualization successful
+2025-06-04 16:42:05,074 - INFO - Processing file 116/135: data_samples/obj/abc_0001_obj_v00/00010533/00010533_a8adf76bfb3d4789996949d7_trimesh_009.obj
+2025-06-04 16:42:10,964 - INFO - ✅ Visualization successful
+2025-06-04 16:42:10,965 - INFO - Processing file 117/135: data_samples/obj/abc_0001_obj_v00/00010428/00010428_fc56088abf10474bba06f659_trimesh_003.obj
+2025-06-04 16:42:18,268 - INFO - ✅ Visualization successful
+2025-06-04 16:42:18,268 - INFO - Processing file 118/135: data_samples/obj/abc_0001_obj_v00/00010865/00010865_5682a09dbce743909527fbc7_trimesh_010.obj
+2025-06-04 16:42:24,761 - INFO - ✅ Visualization successful
+2025-06-04 16:42:24,761 - INFO - Processing file 119/135: data_samples/obj/abc_0001_obj_v00/00010336/00010336_2875a9019ad348369fd1285e_trimesh_000.obj
+2025-06-04 16:42:32,022 - INFO - ✅ Visualization successful
+2025-06-04 16:42:32,022 - INFO - Processing file 120/135: data_samples/obj/abc_0001_obj_v00/00011003/00011003_9584c16dc8f9433d84b75bd9_trimesh_000.obj
+2025-06-04 16:42:38,275 - INFO - ✅ Visualization successful
+2025-06-04 16:42:38,275 - INFO - Processing file 121/135: data_samples/obj/abc_0001_obj_v00/00010801/00010801_45d813d16cbb43598ad59c25_trimesh_000.obj
+2025-06-04 16:42:46,473 - INFO - ✅ Visualization successful
+2025-06-04 16:42:46,473 - INFO - Processing file 122/135: data_samples/obj/abc_0001_obj_v00/00010429/00010429_fc56088abf10474bba06f659_trimesh_004.obj
+2025-06-04 16:42:52,060 - INFO - ✅ Visualization successful
+2025-06-04 16:42:52,060 - INFO - Processing file 123/135: data_samples/obj/abc_0001_obj_v00/00011044/00011044_99c0bdce054243a2a4382a47_trimesh_000.obj
+2025-06-04 16:42:56,513 - INFO - ✅ Visualization successful
+2025-06-04 16:42:56,513 - INFO - Processing file 124/135: data_samples/obj/abc_0001_obj_v00/00010256/00010256_8a9f3a1982a94a7da2ffa50f_trimesh_000.obj
+2025-06-04 16:43:03,455 - INFO - ✅ Visualization successful
+2025-06-04 16:43:03,455 - INFO - Processing file 125/135: data_samples/obj/abc_0001_obj_v00/00010548/00010548_919044145dd24288a1945b5c_trimesh_010.obj
+2025-06-04 16:43:11,115 - INFO - ✅ Visualization successful
+2025-06-04 16:43:11,115 - INFO - Processing file 126/135: data_samples/obj/abc_0001_obj_v00/00010181/00010181_9cd67ae9033e4ffb8bd15f3c_trimesh_000.obj
+2025-06-04 16:43:19,325 - INFO - ✅ Visualization successful
+2025-06-04 16:43:19,326 - INFO - Processing file 127/135: data_samples/obj/abc_0000_obj_v00/00000282/00000282_5a6ef3285b89452ea6b390e7_trimesh_003.obj
+2025-06-04 16:43:25,280 - INFO - ✅ Visualization successful
+2025-06-04 16:43:25,281 - INFO - Processing file 128/135: data_samples/obj/abc_0000_obj_v00/00000146/00000146_1d9ece3a9c8348a5a11e7153_trimesh_000.obj
+2025-06-04 16:43:33,855 - INFO - ✅ Visualization successful
+2025-06-04 16:43:33,855 - INFO - Processing file 129/135: data_samples/obj/abc_0000_obj_v00/00000139/00000139_2fc54fcd110d4f49969163c4_trimesh_002.obj
+2025-06-04 16:43:39,396 - INFO - ✅ Visualization successful
+2025-06-04 16:43:39,396 - INFO - Processing file 130/135: data_samples/obj/abc_0000_obj_v00/00000120/00000120_ce24e0cbec8e45c89735d148_trimesh_012.obj
+2025-06-04 16:43:52,618 - INFO - ✅ Visualization successful
+2025-06-04 16:43:52,618 - INFO - Processing file 131/135: data_samples/obj/abc_0000_obj_v00/00000290/00000290_58f8ff46b7564e989f9695b7_trimesh_003.obj
+2025-06-04 16:43:58,856 - INFO - ✅ Visualization successful
+2025-06-04 16:43:58,856 - INFO - Processing file 132/135: data_samples/obj/abc_0000_obj_v00/00000248/00000248_e87554b09cdc48c3add39db9_trimesh_000.obj
+2025-06-04 16:44:05,858 - INFO - ✅ Visualization successful
+2025-06-04 16:44:05,858 - INFO - Processing file 133/135: data_samples/obj/abc_0000_obj_v00/00000230/00000230_a01a91841c8f48a5bf75924b_trimesh_000.obj
+2025-06-04 16:44:13,041 - INFO - ✅ Visualization successful
+2025-06-04 16:44:13,041 - INFO - Processing file 134/135: data_samples/obj/abc_0000_obj_v00/00000342/00000342_fe70be720f7e49fa90ded969_trimesh_001.obj
+2025-06-04 16:44:19,232 - INFO - ✅ Visualization successful
+2025-06-04 16:44:19,232 - INFO - Processing file 135/135: data_samples/obj/abc_0000_obj_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_trimesh_001.obj
+2025-06-04 16:44:23,744 - INFO - ✅ Visualization successful
+2025-06-04 16:44:23,745 - INFO - 
+==================================================
+2025-06-04 16:44:23,745 - INFO - BATCH PROCESSING SUMMARY
+2025-06-04 16:44:23,745 - INFO - ==================================================
+2025-06-04 16:44:23,745 - INFO - Total files processed: 135
+2025-06-04 16:44:23,745 - INFO - Successfully visualized: 124
+2025-06-04 16:44:23,745 - INFO - Failed: 11
+2025-06-04 16:44:23,756 - INFO - Failed files saved to: file_lists/failed_files.txt
+2025-06-04 16:44:23,756 - INFO - Batch processing completed!
+2025-06-04 16:45:57,089 - INFO - Resuming processing for 5 files
+2025-06-04 16:45:57,089 - INFO - Processing file 1/5: data_samples/obj/abc_0000_obj_v00/00000290/00000290_58f8ff46b7564e989f9695b7_trimesh_003.obj
+2025-06-04 16:46:07,042 - INFO - ✅ Visualization successful
+2025-06-04 16:46:07,043 - INFO - Processing file 2/5: data_samples/obj/abc_0000_obj_v00/00000248/00000248_e87554b09cdc48c3add39db9_trimesh_000.obj
+2025-06-04 16:46:12,219 - INFO - ✅ Visualization successful
+2025-06-04 16:46:12,229 - INFO - Processing file 3/5: data_samples/obj/abc_0000_obj_v00/00000230/00000230_a01a91841c8f48a5bf75924b_trimesh_000.obj
+2025-06-04 16:46:19,978 - INFO - ✅ Visualization successful
+2025-06-04 16:46:19,979 - INFO - Processing file 4/5: data_samples/obj/abc_0000_obj_v00/00000342/00000342_fe70be720f7e49fa90ded969_trimesh_001.obj
+2025-06-04 16:46:26,884 - INFO - ✅ Visualization successful
+2025-06-04 16:46:26,884 - INFO - Processing file 5/5: data_samples/obj/abc_0000_obj_v00/00000280/00000280_5a6ef3285b89452ea6b390e7_trimesh_001.obj
+2025-06-04 16:46:55,333 - INFO - ✅ Visualization successful
+2025-06-04 16:46:55,333 - INFO - 
+==================================================
+2025-06-04 16:46:55,333 - INFO - RESUME PROCESSING SUMMARY
+2025-06-04 16:46:55,333 - INFO - ==================================================
+2025-06-04 16:46:55,334 - INFO - Files processed: 5
+2025-06-04 16:46:55,334 - INFO - New successes: 5
+2025-06-04 16:46:55,334 - INFO - New failures: 0
+2025-06-04 16:46:55,334 - INFO - Resume processing completed!

@@ -1,0 +1,22 @@
+# Data
+data_samples/
+*.zip
+
+# Environments
+env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.temp
+file_lists/*.txt
+!file_lists/all_files.txt
+file_lists/*.txt
+!file_lists/all_files.txt
+PhotoRealCADVis_AAAI2025/
+PhotoRealCADVis_AAAI2025/
