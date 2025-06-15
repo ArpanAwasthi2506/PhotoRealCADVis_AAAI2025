@@ -1,0 +1,226 @@
+2025-06-15 16:30:52,323 - INFO - Starting rendering process
+2025-06-15 16:30:52,324 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:30:52,324 - INFO - Mesh directory: mesh_data
+2025-06-15 16:30:52,324 - INFO - Render output directory: renders
+2025-06-15 16:30:52,324 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:30:52,324 - INFO - All required packages are available
+2025-06-15 16:30:52,324 - INFO - Found 27 OBJ files to process
+2025-06-15 16:30:52,324 - INFO - 
+Processing file 1/27
+2025-06-15 16:30:52,324 - INFO - Processing: 00010256_8a9f3a1982a94a7da2ffa50f_trimesh_000.obj
+2025-06-15 16:30:52,441 - INFO - Loaded mesh in 0.12s
+2025-06-15 16:30:52,441 - INFO - Mesh stats: 22444 vertices, 44646 faces
+2025-06-15 16:30:52,452 - INFO - Normalized mesh
+2025-06-15 16:30:55,243 - INFO - Rendered in 2.79s
+2025-06-15 16:30:55,299 - INFO - Saved render: renders/00010256_8a9f3a1982a94a7da2ffa50f_trimesh_000.png
+2025-06-15 16:30:55,299 - INFO - 
+Processing file 2/27
+2025-06-15 16:30:55,299 - INFO - Processing: 00010936_c2543b32452d42a3aa48d645_trimesh_001.obj
+2025-06-15 16:30:55,366 - INFO - Loaded mesh in 0.07s
+2025-06-15 16:30:55,366 - INFO - Mesh stats: 15180 vertices, 28818 faces
+2025-06-15 16:30:55,374 - INFO - Normalized mesh
+2025-06-15 16:30:55,556 - INFO - Rendered in 0.18s
+2025-06-15 16:30:55,581 - INFO - Saved render: renders/00010936_c2543b32452d42a3aa48d645_trimesh_001.png
+2025-06-15 16:30:55,581 - INFO - 
+Processing file 3/27
+2025-06-15 16:30:55,581 - INFO - Processing: 00010548_919044145dd24288a1945b5c_trimesh_010.obj
+2025-06-15 16:30:55,649 - INFO - Loaded mesh in 0.07s
+2025-06-15 16:30:55,649 - INFO - Mesh stats: 14984 vertices, 29964 faces
+2025-06-15 16:30:55,657 - INFO - Normalized mesh
+2025-06-15 16:30:55,826 - INFO - Rendered in 0.17s
+2025-06-15 16:30:55,846 - INFO - Saved render: renders/00010548_919044145dd24288a1945b5c_trimesh_010.png
+2025-06-15 16:30:55,846 - INFO - 
+Processing file 4/27
+2025-06-15 16:30:55,846 - INFO - Processing: 00010865_5682a09dbce743909527fbc7_trimesh_010.obj
+2025-06-15 16:30:55,965 - INFO - Loaded mesh in 0.12s
+2025-06-15 16:30:55,965 - INFO - Mesh stats: 25171 vertices, 48820 faces
+2025-06-15 16:30:55,977 - INFO - Normalized mesh
+2025-06-15 16:30:56,184 - INFO - Rendered in 0.21s
+2025-06-15 16:30:56,206 - INFO - Saved render: renders/00010865_5682a09dbce743909527fbc7_trimesh_010.png
+2025-06-15 16:30:56,206 - INFO - 
+Processing file 5/27
+2025-06-15 16:30:56,206 - INFO - Processing: 00010533_a8adf76bfb3d4789996949d7_trimesh_009.obj
+2025-06-15 16:30:56,257 - INFO - Loaded mesh in 0.05s
+2025-06-15 16:30:56,257 - INFO - Mesh stats: 9744 vertices, 18680 faces
+2025-06-15 16:30:56,261 - INFO - Normalized mesh
+2025-06-15 16:30:56,399 - INFO - Rendered in 0.14s
+2025-06-15 16:30:56,420 - INFO - Saved render: renders/00010533_a8adf76bfb3d4789996949d7_trimesh_009.png
+2025-06-15 16:30:56,421 - INFO - 
+Processing file 6/27
+2025-06-15 16:30:56,421 - INFO - Processing: 00011014_9d086bb83b934224a3460726_trimesh_002.obj
+2025-06-15 16:30:56,469 - INFO - Loaded mesh in 0.05s
+2025-06-15 16:30:56,469 - INFO - Mesh stats: 11138 vertices, 21728 faces
+2025-06-15 16:30:56,474 - INFO - Normalized mesh
+2025-06-15 16:30:56,613 - INFO - Rendered in 0.14s
+2025-06-15 16:30:56,633 - INFO - Saved render: renders/00011014_9d086bb83b934224a3460726_trimesh_002.png
+2025-06-15 16:30:56,633 - INFO - 
+Processing file 7/27
+2025-06-15 16:30:56,633 - INFO - Processing: 00011003_9584c16dc8f9433d84b75bd9_trimesh_000.obj
+2025-06-15 16:30:56,648 - INFO - Loaded mesh in 0.01s
+2025-06-15 16:30:56,648 - INFO - Mesh stats: 2712 vertices, 4982 faces
+2025-06-15 16:30:56,650 - INFO - Normalized mesh
+2025-06-15 16:30:56,745 - INFO - Rendered in 0.09s
+2025-06-15 16:30:56,762 - INFO - Saved render: renders/00011003_9584c16dc8f9433d84b75bd9_trimesh_000.png
+2025-06-15 16:30:56,762 - INFO - 
+Processing file 8/27
+2025-06-15 16:30:56,762 - INFO - Processing: 00000342_fe70be720f7e49fa90ded969_trimesh_001.obj
+2025-06-15 16:30:56,822 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:30:56,822 - INFO - Mesh stats: 13567 vertices, 26450 faces
+2025-06-15 16:30:56,828 - INFO - Normalized mesh
+2025-06-15 16:30:56,973 - INFO - Rendered in 0.14s
+2025-06-15 16:30:56,995 - INFO - Saved render: renders/00000342_fe70be720f7e49fa90ded969_trimesh_001.png
+2025-06-15 16:30:56,995 - INFO - 
+Processing file 9/27
+2025-06-15 16:30:56,995 - INFO - Processing: 00000230_a01a91841c8f48a5bf75924b_trimesh_000.obj
+2025-06-15 16:30:57,034 - INFO - Loaded mesh in 0.04s
+2025-06-15 16:30:57,034 - INFO - Mesh stats: 8790 vertices, 16542 faces
+2025-06-15 16:30:57,038 - INFO - Normalized mesh
+2025-06-15 16:30:57,159 - INFO - Rendered in 0.12s
+2025-06-15 16:30:57,177 - INFO - Saved render: renders/00000230_a01a91841c8f48a5bf75924b_trimesh_000.png
+2025-06-15 16:30:57,178 - INFO - 
+Processing file 10/27
+2025-06-15 16:30:57,178 - INFO - Processing: 00000248_e87554b09cdc48c3add39db9_trimesh_000.obj
+2025-06-15 16:30:57,240 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:30:57,240 - INFO - Mesh stats: 13623 vertices, 27152 faces
+2025-06-15 16:30:57,246 - INFO - Normalized mesh
+2025-06-15 16:30:57,399 - INFO - Rendered in 0.15s
+2025-06-15 16:30:57,421 - INFO - Saved render: renders/00000248_e87554b09cdc48c3add39db9_trimesh_000.png
+2025-06-15 16:30:57,422 - INFO - 
+Processing file 11/27
+2025-06-15 16:30:57,422 - INFO - Processing: 00010336_2875a9019ad348369fd1285e_trimesh_000.obj
+2025-06-15 16:30:57,521 - INFO - Loaded mesh in 0.10s
+2025-06-15 16:30:57,521 - INFO - Mesh stats: 23382 vertices, 43738 faces
+2025-06-15 16:30:57,531 - INFO - Normalized mesh
+2025-06-15 16:30:57,709 - INFO - Rendered in 0.18s
+2025-06-15 16:30:57,729 - INFO - Saved render: renders/00010336_2875a9019ad348369fd1285e_trimesh_000.png
+2025-06-15 16:30:57,729 - INFO - 
+Processing file 12/27
+2025-06-15 16:30:57,729 - INFO - Processing: 00010998_8a21002f126e4425a811e70a_trimesh_002.obj
+2025-06-15 16:30:57,835 - INFO - Loaded mesh in 0.11s
+2025-06-15 16:30:57,836 - INFO - Mesh stats: 22450 vertices, 43348 faces
+2025-06-15 16:30:57,847 - INFO - Normalized mesh
+2025-06-15 16:30:58,028 - INFO - Rendered in 0.18s
+2025-06-15 16:30:58,057 - INFO - Saved render: renders/00010998_8a21002f126e4425a811e70a_trimesh_002.png
+2025-06-15 16:30:58,057 - INFO - 
+Processing file 13/27
+2025-06-15 16:30:58,057 - INFO - Processing: 00010429_fc56088abf10474bba06f659_trimesh_004.obj
+2025-06-15 16:30:58,147 - INFO - Loaded mesh in 0.09s
+2025-06-15 16:30:58,147 - INFO - Mesh stats: 19524 vertices, 36896 faces
+2025-06-15 16:30:58,157 - INFO - Normalized mesh
+2025-06-15 16:30:58,314 - INFO - Rendered in 0.16s
+2025-06-15 16:30:58,334 - INFO - Saved render: renders/00010429_fc56088abf10474bba06f659_trimesh_004.png
+2025-06-15 16:30:58,334 - INFO - 
+Processing file 14/27
+2025-06-15 16:30:58,334 - INFO - Processing: 00010524_a8adf76bfb3d4789996949d7_trimesh_000.obj
+2025-06-15 16:30:58,390 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:30:58,390 - INFO - Mesh stats: 14021 vertices, 27050 faces
+2025-06-15 16:30:58,396 - INFO - Normalized mesh
+2025-06-15 16:30:58,527 - INFO - Rendered in 0.13s
+2025-06-15 16:30:58,547 - INFO - Saved render: renders/00010524_a8adf76bfb3d4789996949d7_trimesh_000.png
+2025-06-15 16:30:58,547 - INFO - 
+Processing file 15/27
+2025-06-15 16:30:58,547 - INFO - Processing: 00010801_45d813d16cbb43598ad59c25_trimesh_000.obj
+2025-06-15 16:30:58,595 - INFO - Loaded mesh in 0.05s
+2025-06-15 16:30:58,596 - INFO - Mesh stats: 12197 vertices, 23388 faces
+2025-06-15 16:30:58,601 - INFO - Normalized mesh
+2025-06-15 16:30:58,730 - INFO - Rendered in 0.13s
+2025-06-15 16:30:58,751 - INFO - Saved render: renders/00010801_45d813d16cbb43598ad59c25_trimesh_000.png
+2025-06-15 16:30:58,751 - INFO - 
+Processing file 16/27
+2025-06-15 16:30:58,751 - INFO - Processing: 00010617_361c9786cd894debb4689c63_trimesh_014.obj
+2025-06-15 16:30:58,805 - INFO - Loaded mesh in 0.05s
+2025-06-15 16:30:58,805 - INFO - Mesh stats: 13091 vertices, 24998 faces
+2025-06-15 16:30:58,811 - INFO - Normalized mesh
+2025-06-15 16:30:58,954 - INFO - Rendered in 0.14s
+2025-06-15 16:30:58,977 - INFO - Saved render: renders/00010617_361c9786cd894debb4689c63_trimesh_014.png
+2025-06-15 16:30:58,977 - INFO - 
+Processing file 17/27
+2025-06-15 16:30:58,977 - INFO - Processing: 00010539_919044145dd24288a1945b5c_trimesh_001.obj
+2025-06-15 16:30:59,026 - INFO - Loaded mesh in 0.05s
+2025-06-15 16:30:59,026 - INFO - Mesh stats: 11153 vertices, 20998 faces
+2025-06-15 16:30:59,031 - INFO - Normalized mesh
+2025-06-15 16:30:59,167 - INFO - Rendered in 0.14s
+2025-06-15 16:30:59,189 - INFO - Saved render: renders/00010539_919044145dd24288a1945b5c_trimesh_001.png
+2025-06-15 16:30:59,189 - INFO - 
+Processing file 18/27
+2025-06-15 16:30:59,189 - INFO - Processing: 00010428_fc56088abf10474bba06f659_trimesh_003.obj
+2025-06-15 16:30:59,279 - INFO - Loaded mesh in 0.09s
+2025-06-15 16:30:59,279 - INFO - Mesh stats: 20029 vertices, 37922 faces
+2025-06-15 16:30:59,294 - INFO - Normalized mesh
+2025-06-15 16:30:59,468 - INFO - Rendered in 0.17s
+2025-06-15 16:30:59,490 - INFO - Saved render: renders/00010428_fc56088abf10474bba06f659_trimesh_003.png
+2025-06-15 16:30:59,491 - INFO - 
+Processing file 19/27
+2025-06-15 16:30:59,491 - INFO - Processing: 00010181_9cd67ae9033e4ffb8bd15f3c_trimesh_000.obj
+2025-06-15 16:30:59,583 - INFO - Loaded mesh in 0.09s
+2025-06-15 16:30:59,583 - INFO - Mesh stats: 19868 vertices, 38772 faces
+2025-06-15 16:30:59,592 - INFO - Normalized mesh
+2025-06-15 16:30:59,761 - INFO - Rendered in 0.17s
+2025-06-15 16:30:59,783 - INFO - Saved render: renders/00010181_9cd67ae9033e4ffb8bd15f3c_trimesh_000.png
+2025-06-15 16:30:59,783 - INFO - 
+Processing file 20/27
+2025-06-15 16:30:59,783 - INFO - Processing: 00011044_99c0bdce054243a2a4382a47_trimesh_000.obj
+2025-06-15 16:30:59,936 - INFO - Loaded mesh in 0.15s
+2025-06-15 16:30:59,936 - INFO - Mesh stats: 36266 vertices, 69164 faces
+2025-06-15 16:30:59,964 - INFO - Normalized mesh
+2025-06-15 16:31:00,219 - INFO - Rendered in 0.25s
+2025-06-15 16:31:00,239 - INFO - Saved render: renders/00011044_99c0bdce054243a2a4382a47_trimesh_000.png
+2025-06-15 16:31:00,239 - INFO - 
+Processing file 21/27
+2025-06-15 16:31:00,239 - INFO - Processing: 00011128_db6e2de6f4ae4ec493ebe2aa_trimesh_004.obj
+2025-06-15 16:31:00,347 - INFO - Loaded mesh in 0.11s
+2025-06-15 16:31:00,347 - INFO - Mesh stats: 25480 vertices, 48234 faces
+2025-06-15 16:31:00,358 - INFO - Normalized mesh
+2025-06-15 16:31:00,551 - INFO - Rendered in 0.19s
+2025-06-15 16:31:00,572 - INFO - Saved render: renders/00011128_db6e2de6f4ae4ec493ebe2aa_trimesh_004.png
+2025-06-15 16:31:00,572 - INFO - 
+Processing file 22/27
+2025-06-15 16:31:00,572 - INFO - Processing: 00000120_ce24e0cbec8e45c89735d148_trimesh_012.obj
+2025-06-15 16:31:00,633 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:31:00,633 - INFO - Mesh stats: 13623 vertices, 27152 faces
+2025-06-15 16:31:00,639 - INFO - Normalized mesh
+2025-06-15 16:31:00,791 - INFO - Rendered in 0.15s
+2025-06-15 16:31:00,813 - INFO - Saved render: renders/00000120_ce24e0cbec8e45c89735d148_trimesh_012.png
+2025-06-15 16:31:00,813 - INFO - 
+Processing file 23/27
+2025-06-15 16:31:00,813 - INFO - Processing: 00000290_58f8ff46b7564e989f9695b7_trimesh_003.obj
+2025-06-15 16:31:00,843 - INFO - Loaded mesh in 0.03s
+2025-06-15 16:31:00,843 - INFO - Mesh stats: 4737 vertices, 9270 faces
+2025-06-15 16:31:00,846 - INFO - Normalized mesh
+2025-06-15 16:31:00,958 - INFO - Rendered in 0.11s
+2025-06-15 16:31:00,977 - INFO - Saved render: renders/00000290_58f8ff46b7564e989f9695b7_trimesh_003.png
+2025-06-15 16:31:00,977 - INFO - 
+Processing file 24/27
+2025-06-15 16:31:00,977 - INFO - Processing: 00000146_1d9ece3a9c8348a5a11e7153_trimesh_000.obj
+2025-06-15 16:31:01,038 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:31:01,039 - INFO - Mesh stats: 15450 vertices, 29624 faces
+2025-06-15 16:31:01,045 - INFO - Normalized mesh
+2025-06-15 16:31:01,188 - INFO - Rendered in 0.14s
+2025-06-15 16:31:01,207 - INFO - Saved render: renders/00000146_1d9ece3a9c8348a5a11e7153_trimesh_000.png
+2025-06-15 16:31:01,207 - INFO - 
+Processing file 25/27
+2025-06-15 16:31:01,207 - INFO - Processing: 00000280_5a6ef3285b89452ea6b390e7_trimesh_001.obj
+2025-06-15 16:31:01,274 - INFO - Loaded mesh in 0.07s
+2025-06-15 16:31:01,274 - INFO - Mesh stats: 15016 vertices, 28720 faces
+2025-06-15 16:31:01,280 - INFO - Normalized mesh
+2025-06-15 16:31:01,432 - INFO - Rendered in 0.15s
+2025-06-15 16:31:01,453 - INFO - Saved render: renders/00000280_5a6ef3285b89452ea6b390e7_trimesh_001.png
+2025-06-15 16:31:01,453 - INFO - 
+Processing file 26/27
+2025-06-15 16:31:01,453 - INFO - Processing: 00000282_5a6ef3285b89452ea6b390e7_trimesh_003.obj
+2025-06-15 16:31:01,518 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:31:01,518 - INFO - Mesh stats: 16748 vertices, 32064 faces
+2025-06-15 16:31:01,525 - INFO - Normalized mesh
+2025-06-15 16:31:01,681 - INFO - Rendered in 0.16s
+2025-06-15 16:31:01,698 - INFO - Saved render: renders/00000282_5a6ef3285b89452ea6b390e7_trimesh_003.png
+2025-06-15 16:31:01,699 - INFO - 
+Processing file 27/27
+2025-06-15 16:31:01,699 - INFO - Processing: 00000139_2fc54fcd110d4f49969163c4_trimesh_002.obj
+2025-06-15 16:31:01,759 - INFO - Loaded mesh in 0.06s
+2025-06-15 16:31:01,759 - INFO - Mesh stats: 13070 vertices, 24224 faces
+2025-06-15 16:31:01,764 - INFO - Normalized mesh
+2025-06-15 16:31:01,903 - INFO - Rendered in 0.14s
+2025-06-15 16:31:01,925 - INFO - Saved render: renders/00000139_2fc54fcd110d4f49969163c4_trimesh_002.png
+2025-06-15 16:31:01,925 - INFO - 
+Rendering complete! Success: 27/27
+2025-06-15 16:31:01,925 - INFO - Output saved to: /home/utpal/cad-rendering/renders
