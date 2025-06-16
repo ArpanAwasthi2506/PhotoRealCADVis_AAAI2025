@@ -1,0 +1,224 @@
+{
+  "info": {
+    "description": "CAD Rendering Dataset",
+    "created": "2025-06-16T17:45:35.999881"
+  },
+  "images": [
+    {
+      "id": 0,
+      "file_name": "render_000000.jpg",
+      "source_file": "composite_0010.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.530218"
+    },
+    {
+      "id": 1,
+      "file_name": "render_000001.jpg",
+      "source_file": "composite_0017.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.548443"
+    },
+    {
+      "id": 2,
+      "file_name": "render_000002.jpg",
+      "source_file": "composite_0005.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.567274"
+    },
+    {
+      "id": 3,
+      "file_name": "render_000003.jpg",
+      "source_file": "composite_0015.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.582950"
+    },
+    {
+      "id": 4,
+      "file_name": "render_000004.jpg",
+      "source_file": "composite_0022.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.600969"
+    },
+    {
+      "id": 5,
+      "file_name": "render_000005.jpg",
+      "source_file": "composite_0014.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.616744"
+    },
+    {
+      "id": 6,
+      "file_name": "render_000006.jpg",
+      "source_file": "composite_0020.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.635368"
+    },
+    {
+      "id": 7,
+      "file_name": "render_000007.jpg",
+      "source_file": "composite_0008.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.653930"
+    },
+    {
+      "id": 8,
+      "file_name": "render_000008.jpg",
+      "source_file": "composite_0004.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.668829"
+    },
+    {
+      "id": 9,
+      "file_name": "render_000009.jpg",
+      "source_file": "composite_0025.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.684672"
+    },
+    {
+      "id": 10,
+      "file_name": "render_000010.jpg",
+      "source_file": "composite_0007.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.702421"
+    },
+    {
+      "id": 11,
+      "file_name": "render_000011.jpg",
+      "source_file": "composite_0023.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.717919"
+    },
+    {
+      "id": 12,
+      "file_name": "render_000012.jpg",
+      "source_file": "composite_0012.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.737880"
+    },
+    {
+      "id": 13,
+      "file_name": "render_000013.jpg",
+      "source_file": "composite_0003.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.756046"
+    },
+    {
+      "id": 14,
+      "file_name": "render_000014.jpg",
+      "source_file": "composite_0009.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.776302"
+    },
+    {
+      "id": 15,
+      "file_name": "render_000015.jpg",
+      "source_file": "composite_0021.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.795290"
+    },
+    {
+      "id": 16,
+      "file_name": "render_000016.jpg",
+      "source_file": "composite_0006.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.814270"
+    },
+    {
+      "id": 17,
+      "file_name": "render_000017.jpg",
+      "source_file": "composite_0019.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.830802"
+    },
+    {
+      "id": 18,
+      "file_name": "render_000018.jpg",
+      "source_file": "composite_0011.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.849798"
+    },
+    {
+      "id": 19,
+      "file_name": "render_000019.jpg",
+      "source_file": "composite_0018.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.870307"
+    },
+    {
+      "id": 20,
+      "file_name": "render_000020.jpg",
+      "source_file": "composite_0001.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.889853"
+    },
+    {
+      "id": 21,
+      "file_name": "render_000021.jpg",
+      "source_file": "composite_0016.jpg",
+      "type": "cad_model",
+      "material": "rubber",
+      "timestamp": "2025-06-16T17:45:35.908385"
+    },
+    {
+      "id": 22,
+      "file_name": "render_000022.jpg",
+      "source_file": "composite_0002.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.925730"
+    },
+    {
+      "id": 23,
+      "file_name": "render_000023.jpg",
+      "source_file": "composite_0013.jpg",
+      "type": "cad_model",
+      "material": "metal",
+      "timestamp": "2025-06-16T17:45:35.943433"
+    },
+    {
+      "id": 24,
+      "file_name": "render_000024.jpg",
+      "source_file": "composite_0000.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.958706"
+    },
+    {
+      "id": 25,
+      "file_name": "render_000025.jpg",
+      "source_file": "composite_0024.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.975427"
+    },
+    {
+      "id": 26,
+      "file_name": "render_000026.jpg",
+      "source_file": "composite_0026.jpg",
+      "type": "cad_model",
+      "material": "plastic",
+      "timestamp": "2025-06-16T17:45:35.989673"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import trimesh  # ✅ Required for mesh operations
 MATERIAL_DIR = "materials"
 os.makedirs(MATERIAL_DIR, exist_ok=True)
 
-# Define base materials
+# Updated materials with additional options
 DEFAULT_MATERIALS = {
     "metal": {
         "type": "phong",
@@ -25,6 +25,19 @@ DEFAULT_MATERIALS = {
         "type": "lambert",
         "diffuse": [0.1, 0.1, 0.1],
         "roughness": 0.9
+    },
+    "brushed_metal": {
+        "type": "phong",
+        "diffuse": [0.55, 0.55, 0.55],
+        "specular": [0.8, 0.8, 0.8],
+        "shininess": 120,
+        "texture": "brushed_metal.jpg"
+    },
+    "matte_plastic": {
+        "type": "lambert",
+        "diffuse": [0.85, 0.85, 0.85],
+        "specular": [0.1, 0.1, 0.1],
+        "shininess": 30
     }
 }
 

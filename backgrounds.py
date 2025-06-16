@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 def generate_backgrounds(output_dir, num_backgrounds=10):
-    """Generate diverse backgrounds using Stable Diffusion on GPU"""
+    """Generate clean wooden table backgrounds using Stable Diffusion on GPU"""
     os.makedirs(output_dir, exist_ok=True)
 
     # Load GPU-accelerated pipeline
@@ -16,16 +16,16 @@ def generate_backgrounds(output_dir, num_backgrounds=10):
     ).to("cuda")
 
     prompts = [
-        "industrial workshop with tools",
-        "engineer's desk with blueprints",
-        "factory assembly line",
-        "clean room laboratory",
-        "technical drawing background",
-        "modern machine shop",
-        "concrete floor and tool shelf",
-        "metal fabrication background",
-        "manufacturing unit with robots",
-        "precision engineering lab"
+        "A clean wooden desk in a well-lit room, empty background, photorealistic",
+        "Minimalist wooden table in a bright studio, empty surface, soft shadows",
+        "Professional workstation with wooden surface, empty desk, office environment",
+        "Wooden conference table in a modern meeting room, empty top",
+        "Design studio with wooden drafting table, natural lighting",
+        "Engineer's wooden workbench in a clean workshop, empty surface",
+        "Wooden desk in a modern office with large windows, empty top",
+        "Polished wooden table in a product photography studio",
+        "Minimalist wooden surface in a well-lit room, shallow depth of field",
+        "Wooden architect's desk with natural lighting, empty surface"
     ]
 
     for i in range(num_backgrounds):
