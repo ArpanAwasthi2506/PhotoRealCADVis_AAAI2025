@@ -1,0 +1,40 @@
+{
+  "metal": {
+    "type": "phong",
+    "diffuse": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "specular": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "shininess": 100,
+    "texture": "metal_brushed.jpg"
+  },
+  "plastic": {
+    "type": "lambert",
+    "diffuse": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "specular": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "shininess": 20
+  },
+  "rubber": {
+    "type": "lambert",
+    "diffuse": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "roughness": 0.9
+  }
+}

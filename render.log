@@ -224,3 +224,38 @@ Processing file 27/27
 2025-06-15 16:31:01,925 - INFO - 
 Rendering complete! Success: 27/27
 2025-06-15 16:31:01,925 - INFO - Output saved to: /home/utpal/cad-rendering/renders
+2025-06-15 16:38:02,804 - INFO - Starting rendering process
+2025-06-15 16:38:02,804 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:38:02,804 - INFO - Mesh directory: mesh_data
+2025-06-15 16:38:02,804 - INFO - Render output directory: renders
+2025-06-15 16:38:02,805 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:39:45,887 - INFO - Starting rendering process
+2025-06-15 16:39:45,887 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:39:45,887 - INFO - Mesh directory: mesh_data
+2025-06-15 16:39:45,887 - INFO - Render output directory: renders
+2025-06-15 16:39:45,887 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:41:14,332 - INFO - Starting rendering process
+2025-06-15 16:41:14,333 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:41:14,333 - INFO - Mesh directory: mesh_data
+2025-06-15 16:41:14,333 - INFO - Render output directory: renders
+2025-06-15 16:41:14,333 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:42:19,840 - INFO - Starting rendering process
+2025-06-15 16:42:19,841 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:42:19,841 - INFO - Mesh directory: mesh_data
+2025-06-15 16:42:19,841 - INFO - Render output directory: renders
+2025-06-15 16:42:19,841 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:43:57,547 - INFO - Starting rendering process
+2025-06-15 16:43:57,548 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:43:57,548 - INFO - Mesh directory: mesh_data
+2025-06-15 16:43:57,548 - INFO - Render output directory: renders
+2025-06-15 16:43:57,548 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:51:01,748 - INFO - Starting rendering process
+2025-06-15 16:51:01,748 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:51:01,748 - INFO - Mesh directory: mesh_data
+2025-06-15 16:51:01,749 - INFO - Render output directory: renders
+2025-06-15 16:51:01,749 - INFO - Set PYOPENGL_PLATFORM=osmesa
+2025-06-15 16:55:59,773 - INFO - Starting rendering process
+2025-06-15 16:55:59,773 - INFO - Working directory: /home/utpal/cad-rendering
+2025-06-15 16:55:59,773 - INFO - Mesh directory: mesh_data
+2025-06-15 16:55:59,773 - INFO - Render output directory: renders
+2025-06-15 16:55:59,774 - INFO - Set PYOPENGL_PLATFORM=osmesa

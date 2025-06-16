@@ -1,6 +1,7 @@
 import os
 import json
 import numpy as np
+import trimesh  # ✅ Required for mesh operations
 
 MATERIAL_DIR = "materials"
 os.makedirs(MATERIAL_DIR, exist_ok=True)
@@ -42,15 +43,13 @@ def load_materials():
     return DEFAULT_MATERIALS
 
 def apply_material(mesh, material_name):
-    """Apply material properties to a trimesh object"""
+    """Apply simple visual color to a trimesh object"""
     materials = load_materials()
     material = materials.get(material_name, materials["metal"])
+    diffuse = material.get("diffuse", [1, 1, 1])
     
-    # Create visual properties
-    mesh.visual = trimesh.visual.material.PBRMaterial(
-        baseColorFactor=material.get("diffuse", [1, 1, 1]),
-        metallicFactor=0.8 if "metal" in material_name else 0.1,
-        roughnessFactor=material.get("roughness", 0.3),
-        emissiveFactor=material.get("emissive", [0, 0, 0])
-    )
+    # Apply vertex color uniformly
+    color_array = np.tile((np.array(diffuse) * 255).astype(np.uint8), (len(mesh.vertices), 1))
+    mesh.visual.vertex_colors = color_array
+
     return mesh

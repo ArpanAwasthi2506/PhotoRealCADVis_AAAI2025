@@ -82,6 +82,9 @@ def simple_render(mesh_path):
         logger.error(f"Failed to render {mesh_path}: {str(e)}")
         return False
 
+# ✅ Add this line to allow importing from pipeline.py
+render_mesh = simple_render
+
 def main():
     # Get all OBJ files
     obj_files = [f for f in os.listdir(MESH_DIR) if f.lower().endswith('.obj')]
