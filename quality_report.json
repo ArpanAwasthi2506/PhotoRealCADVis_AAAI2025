@@ -1,427 +1,137 @@
 [
   {
-    "file": "composite_0000.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0001.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0002.jpg",
+    "file": "composites/composite_0000.jpg",
     "valid": false,
-    "message": "Low object visibility: 0.0048"
+    "message": "Low object visibility: 0.0051"
   },
   {
-    "file": "composite_0003.jpg",
+    "file": "composites/composite_0001.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0004.jpg",
+    "file": "composites/composite_0002.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0006.jpg",
+    "file": "composites/composite_0003.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0004.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0005.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0006.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0007.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0008.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0009.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0010.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0011.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0012.jpg",
+    "valid": true,
+    "message": "Quality OK"
+  },
+  {
+    "file": "composites/composite_0013.jpg",
     "valid": false,
-    "message": "Low object visibility: 0.0039"
+    "message": "Low object visibility: 0.0097"
   },
   {
-    "file": "composite_0007.jpg",
+    "file": "composites/composite_0014.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0008.jpg",
+    "file": "composites/composite_0015.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0009.jpg",
+    "file": "composites/composite_0016.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0010.jpg",
+    "file": "composites/composite_0017.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0014.jpg",
+    "file": "composites/composite_0018.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0015.jpg",
+    "file": "composites/composite_0019.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0016.jpg",
-    "valid": false,
-    "message": "Low object visibility: 0.0039"
-  },
-  {
-    "file": "composite_0017.jpg",
+    "file": "composites/composite_0020.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0018.jpg",
+    "file": "composites/composite_0021.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0020.jpg",
+    "file": "composites/composite_0022.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0021.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0022.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0024.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0025.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0027.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0028.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0030.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0031.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0032.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0035.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0036.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0039.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0040.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0041.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0042.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0043.jpg",
-    "valid": false,
-    "message": "Low object visibility: 0.0037"
-  },
-  {
-    "file": "composite_0044.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0045.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0047.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0049.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0050.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0051.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0052.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0053.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0055.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0056.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0059.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0060.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0062.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0064.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0066.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0067.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0068.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0069.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0070.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0072.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0073.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0074.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0075.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0076.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0077.jpg",
-    "valid": false,
-    "message": "Low object visibility: 0.0041"
-  },
-  {
-    "file": "composite_0078.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0079.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0080.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0082.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0083.jpg",
+    "file": "composites/composite_0023.jpg",
     "valid": false,
     "message": "Low object visibility: 0.0044"
   },
   {
-    "file": "composite_0088.jpg",
+    "file": "composites/composite_0024.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0089.jpg",
+    "file": "composites/composite_0025.jpg",
     "valid": true,
-    "message": "OK"
+    "message": "Quality OK"
   },
   {
-    "file": "composite_0093.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0095.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0096.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0097.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0098.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0099.jpg",
+    "file": "composites/composite_0026.jpg",
     "valid": false,
-    "message": "Low object visibility: 0.0041"
-  },
-  {
-    "file": "composite_0101.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0103.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0104.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0106.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0107.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0108.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0109.jpg",
-    "valid": false,
-    "message": "Low object visibility: 0.0044"
-  },
-  {
-    "file": "composite_0110.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0111.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0113.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0114.jpg",
-    "valid": false,
-    "message": "Low object visibility: 0.0039"
-  },
-  {
-    "file": "composite_0117.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0118.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0119.jpg",
-    "valid": true,
-    "message": "OK"
-  },
-  {
-    "file": "composite_0120.jpg",
-    "valid": true,
-    "message": "OK"
+    "message": "Low object visibility: 0.0069"
   }
 ]
