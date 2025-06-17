@@ -1,0 +1,16 @@
+# config/camera.yaml
+default:
+  fov: 60
+  resolution: [1920, 1080]
+  position: [0, -2, 0.5]
+  target: [0, 0, 0.2]
+  up_vector: [0, 0, 1]
+
+top_down:
+  position: [0, 0, 3]
+  target: [0, 0, 0]
+  up_vector: [0, 1, 0]
+
+front_view:
+  position: [0, -3, 0.5]
+  target: [0, 0, 0.5]
