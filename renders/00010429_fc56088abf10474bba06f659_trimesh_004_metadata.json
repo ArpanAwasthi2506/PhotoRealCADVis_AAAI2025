@@ -1,0 +1,128 @@
+[
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view0.png",
+    "camera_params": {
+      "position": [
+        0,
+        0,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  },
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view1.png",
+    "camera_params": {
+      "position": [
+        2.0,
+        0,
+        1.5
+      ],
+      "rotation": [
+        0,
+        30,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  },
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view2.png",
+    "camera_params": {
+      "position": [
+        0,
+        2.0,
+        1.5
+      ],
+      "rotation": [
+        -30,
+        0,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  },
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view3.png",
+    "camera_params": {
+      "position": [
+        -2.0,
+        0,
+        1.5
+      ],
+      "rotation": [
+        0,
+        -30,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  },
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view4.png",
+    "camera_params": {
+      "position": [
+        0,
+        -2.0,
+        1.5
+      ],
+      "rotation": [
+        30,
+        0,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  },
+  {
+    "image_path": "renders/00010429_fc56088abf10474bba06f659_trimesh_004_view5.png",
+    "camera_params": {
+      "position": [
+        0,
+        0,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "focal_length": 35,
+      "sensor_width": 32,
+      "resolution": [
+        1024,
+        768
+      ]
+    }
+  }
+]

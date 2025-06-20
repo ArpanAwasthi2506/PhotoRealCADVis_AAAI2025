@@ -2,8 +2,8 @@ import os
 import cv2
 import numpy as np
 import random
-from PIL import Image
 import json
+from plane_detection import PlaneDetector
 
 # --- Configuration ---
 RENDER_DIR = "renders"
@@ -12,144 +12,203 @@ COMPOSITE_DIR = "composites"
 CONFIG_PATH = "compositing_config.json"
 os.makedirs(COMPOSITE_DIR, exist_ok=True)
 
+# Initialize plane detector
+plane_detector = PlaneDetector()
+
 def load_config():
-    """Load compositing configuration"""
     if os.path.exists(CONFIG_PATH):
         with open(CONFIG_PATH) as f:
             return json.load(f)
     return {
-        "shadow_intensity": 0.6,
+        "object_scale": 0.7,
         "shadow_blur": 25,
-        "min_scale": 0.5,
-        "max_scale": 0.9,
-        "light_direction": (0.7, -0.3),  # (x, y) normalized
-        "color_adjustment": 0.95,
         "output_size": (1024, 768)
     }
 
-def composite_object(render_path, background_path, config):
-    """Composite CAD render onto background with realistic effects"""
+def photorealistic_composite(render_path, background_path, camera_metadata, config):
     render = cv2.imread(render_path, cv2.IMREAD_UNCHANGED)
     background = cv2.imread(background_path)
 
     if render is None or background is None:
-        print(f"Skipping due to load failure: {render_path} or {background_path}")
+        print(f"Error loading images: {render_path} or {background_path}")
         return None
 
-    # Ensure 4-channel render
-    if render.shape[2] == 3:
-        render = cv2.cvtColor(render, cv2.COLOR_BGR2BGRA)
+    bg_height, bg_width = background.shape[:2]
+    table_plane = plane_detector.detect_table_plane(background)
+    lighting = plane_detector.estimate_lighting(background)
 
-    # Resize background
-    background = cv2.resize(background, config["output_size"])
+    render_height, render_width = render.shape[:2]
+    focal_length = camera_metadata.get('camera_params', {}).get('focal_length', 35)
+    sensor_width = camera_metadata.get('camera_params', {}).get('sensor_width', 32)
+    distance_to_object = np.linalg.norm(camera_metadata.get('camera_params', {}).get('position', [0, 0, 2.5]))
 
-    alpha = render[:, :, 3] / 255.0
-    rgb = render[:, :, :3]
-    rgb = (rgb * config["color_adjustment"]).astype(np.uint8)
+    try:
+        scale_factor = (focal_length * distance_to_object) / (sensor_width * render_width)
+        scale = config.get('object_scale', 0.7) * scale_factor
+        scale = max(0.1, min(scale, 3.0))
+    except ZeroDivisionError:
+        scale = config.get('object_scale', 0.7)
 
-    margin_x = int(config["output_size"][0] * 0.1)
-    margin_y = int(config["output_size"][1] * 0.1)
+    table_center = table_plane.get('center', (bg_width // 2, bg_height // 2))
+    pos_x = int(table_center[0] - (render_width * scale) // 2)
+    pos_y = int(table_center[1] - (render_height * scale) // 2)
+    pos_x = max(0, min(bg_width - 10, pos_x))
+    pos_y = max(0, min(bg_height - 10, pos_y))
 
-    # --- Fix: Scale bounding box to fit ---
-    max_allowed_width = config["output_size"][0] - 2 * margin_x
-    max_allowed_height = config["output_size"][1] - 2 * margin_y
-    width_scale = max_allowed_width / rgb.shape[1]
-    height_scale = max_allowed_height / rgb.shape[0]
-    max_scale = min(width_scale, height_scale, config["max_scale"])
+    try:
+        render_transformed = apply_perspective(
+            render,
+            camera_metadata.get('camera_params', {}).get('rotation', [0, 0, 0]),
+            scale
+        )
+    except Exception:
+        new_size = (max(10, int(render_width * scale)), max(10, int(render_height * scale)))
+        render_transformed = cv2.resize(render, new_size)
 
-    if max_scale < config["min_scale"]:
-        scale = config["min_scale"]
-        print(f"Warning: Object too large. Using min scale {scale}")
-    else:
-        scale = random.uniform(config["min_scale"], max_scale)
+    render_lit = apply_lighting(render_transformed, lighting)
 
-    new_h = int(rgb.shape[0] * scale)
-    new_w = int(rgb.shape[1] * scale)
+    # Resize render to match background if dimensions mismatch
+    if render_lit.shape[0] != background.shape[0] or render_lit.shape[1] != background.shape[1]:
+        render_lit = cv2.resize(render_lit, (background.shape[1], background.shape[0]))
 
-    resized_rgb = cv2.resize(rgb, (new_w, new_h))
-    resized_alpha = cv2.resize(alpha, (new_w, new_h))
+    try:
+        shadow = generate_physics_shadow(render_lit, table_plane, lighting)
+    except:
+        shadow = None
 
-    pos_x = random.randint(margin_x, config["output_size"][0] - new_w - margin_x)
-    pos_y = random.randint(margin_y, config["output_size"][1] - new_h - margin_y)
+    composite = background.copy()
+    if shadow is not None:
+        composite = blend_shadow(composite, shadow)
+    composite = blend_object(composite, render_lit, (pos_x, pos_y))
 
-    # --- Shadow creation with fixed perspective ---
-    shadow = np.zeros((config["output_size"][1], config["output_size"][0]), dtype=float)
-    offset_x = int(config["light_direction"][0] * 30)
-    offset_y = int(config["light_direction"][1] * 30)
+    return composite
 
-    shadow_pts = np.array([
-        [0, 0],
-        [new_w, 0],
-        [new_w, new_h],
-        [0, new_h]
+def apply_perspective(render, rotation, scale):
+    height, width = render.shape[:2]
+    new_w = max(10, int(width * scale))
+    new_h = max(10, int(height * scale))
+    render = cv2.resize(render, (new_w, new_h))
+
+    src_pts = np.array([
+        [0, 0], [new_w, 0], [new_w, new_h], [0, new_h]
     ], dtype=np.float32)
 
-    shadow_dst = shadow_pts + np.array([offset_x, offset_y], dtype=np.float32)
+    rx, ry, rz = np.radians(rotation)
+    dst_pts = np.array([
+        [np.clip(new_w * 0.1 * rx, 0, new_w), np.clip(new_h * 0.1 * ry, 0, new_h)],
+        [np.clip(new_w - new_w * 0.1 * rz, 0, new_w), np.clip(new_h * 0.05 * ry, 0, new_h)],
+        [np.clip(new_w - new_w * 0.05 * rx, 0, new_w), np.clip(new_h - new_h * 0.1 * ry, 0, new_h)],
+        [np.clip(new_w * 0.1 * rz, 0, new_w), np.clip(new_h - new_h * 0.05 * ry, 0, new_h)]
+    ], dtype=np.float32)
 
-    if shadow_pts.shape == (4, 2) and shadow_dst.shape == (4, 2):
-        M = cv2.getPerspectiveTransform(shadow_pts, shadow_dst)
-        shadow_mask = cv2.warpPerspective(
-            resized_alpha,
-            M,
-            (config["output_size"][0], config["output_size"][1])
-        )
+    M = cv2.getPerspectiveTransform(src_pts, dst_pts)
+    return cv2.warpPerspective(render, M, (new_w, new_h), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REPLICATE)
+
+def apply_lighting(render, lighting_info):
+    bgr = render[:, :, :3]
+    hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
+    h, s, v = cv2.split(hsv)
+    v = np.clip(v * lighting_info.get('intensity', 1.0), 0, 255).astype(np.uint8)
+    s = np.clip(s * 0.9, 0, 255).astype(np.uint8)
+    adjusted = cv2.merge([h, s, v])
+    bgr_adjusted = cv2.cvtColor(adjusted, cv2.COLOR_HSV2BGR)
+    if render.shape[2] == 4:
+        return np.dstack((bgr_adjusted, render[:, :, 3]))
+    return bgr_adjusted
+
+def generate_physics_shadow(render, plane_info, lighting_info):
+    alpha = render[:, :, 3] if render.shape[2] == 4 else None
+    if alpha is None:
+        return None
+    light_dir = np.array(lighting_info.get('direction', [1, -1, 0]))
+    shadow_dir = -light_dir[:2] * 20
+    M = np.array([[1, 0, shadow_dir[0]], [0, 1, shadow_dir[1]]], dtype=float)
+    shadow = cv2.warpAffine(alpha, M, (render.shape[1], render.shape[0]))
+    shadow = cv2.GaussianBlur(shadow, (25, 25), 0)
+    return shadow * lighting_info.get('intensity', 1.0) * 0.7
+
+def blend_shadow(background, shadow):
+    shadow_3ch = np.stack([shadow] * 3, axis=-1) / 255.0
+    return (background.astype(np.float32) * (1.0 - shadow_3ch * 0.5)).astype(np.uint8)
+
+def blend_object(background, render, position):
+    """Blend object onto background with proper alpha handling"""
+    x, y = position
+    h, w = render.shape[:2]
+    H, W = background.shape[:2]
+
+    # Create a blank canvas for full-sized render
+    if render.shape[2] == 4:
+        render_fullsize = np.zeros((H, W, 4), dtype=np.uint8)
     else:
-        # Fallback to translation if transform fails
-        shadow_mask = np.zeros((config["output_size"][1], config["output_size"][0]))
-        y1 = max(0, pos_y + offset_y)
-        y2 = min(config["output_size"][1], pos_y + offset_y + new_h)
-        x1 = max(0, pos_x + offset_x)
-        x2 = min(config["output_size"][0], pos_x + offset_x + new_w)
-        if y1 < y2 and x1 < x2:
-            shadow_mask[y1:y2, x1:x2] = resized_alpha[:y2-y1, :x2-x1]
+        render_fullsize = np.zeros((H, W, 3), dtype=np.uint8)
 
-    # --- Apply shadow ---
-    shadow[pos_y:pos_y+new_h, pos_x:pos_x+new_w] = shadow_mask[pos_y:pos_y+new_h, pos_x:pos_x+new_w] * config["shadow_intensity"]
-    shadow = cv2.GaussianBlur(shadow, (config["shadow_blur"], config["shadow_blur"]), 0)
-    shadow = np.clip(shadow, 0, 0.7)[:, :, np.newaxis]
-    background = (background * (1 - shadow)).astype(np.uint8)
+    y_end = min(H, y + h)
+    x_end = min(W, x + w)
 
-    # --- Composite with alpha ---
-    for c in range(3):
-        region = background[pos_y:pos_y + new_h, pos_x:pos_x + new_w, c]
-        region[:] = (
-            resized_rgb[:, :, c].astype(float) * resized_alpha +
-            region.astype(float) * (1 - resized_alpha)
-        )
+    if y_end > y and x_end > x:
+        render_y = min(h, H - y)
+        render_x = min(w, W - x)
+        render_fullsize[y:y_end, x:x_end] = render[:render_y, :render_x]
+    else:
+        x = max(0, (W - w) // 2)
+        y = max(0, (H - h) // 2)
+        y_end = min(H, y + h)
+        x_end = min(W, x + w)
+        render_y = min(h, H - y)
+        render_x = min(w, W - x)
+        render_fullsize[y:y_end, x:x_end] = render[:render_y, :render_x]
 
-    return background
+    if render_fullsize.shape[2] == 4:
+        obj_rgb = render_fullsize[:, :, :3]
+        alpha = render_fullsize[:, :, 3:] / 255.0
+    else:
+        obj_rgb = render_fullsize
+        alpha = np.ones(obj_rgb.shape[:2] + (1,), dtype=np.float32)
+
+    blended = (obj_rgb * alpha) + (background * (1 - alpha))
+    return blended.astype(np.uint8)
 
 def main():
     config = load_config()
+    renders = [os.path.join(RENDER_DIR, f) for f in os.listdir(RENDER_DIR)
+               if f.endswith('.png') and '_metadata' not in f]
 
-    renders = [os.path.join(RENDER_DIR, f) for f in os.listdir(RENDER_DIR) if f.endswith('.png')]
-    backgrounds = [os.path.join(BACKGROUND_DIR, f) for f in os.listdir(BACKGROUND_DIR) if f.lower().endswith(('.png', '.jpg'))]
+    metadata = {}
+    for render in renders:
+        base_name = os.path.splitext(os.path.basename(render))[0]
+        meta_path = os.path.join(RENDER_DIR, f"{base_name}_metadata.json")
+        if os.path.exists(meta_path):
+            with open(meta_path) as f:
+                metadata[base_name] = json.load(f)
 
-    print(f"Found {len(renders)} renders and {len(backgrounds)} backgrounds")
+    backgrounds = [os.path.join(BACKGROUND_DIR, f) for f in os.listdir(BACKGROUND_DIR)
+                   if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
     composite_info = []
     for i, render in enumerate(renders):
+        base_name = os.path.splitext(os.path.basename(render))[0]
         bg = random.choice(backgrounds)
-        composite = composite_object(render, bg, config)
+        cam_meta = metadata.get(base_name, [{}])[0]
+        composite = photorealistic_composite(render, bg, cam_meta, config)
         if composite is None:
             continue
 
         output_name = f"composite_{i:04d}.jpg"
         output_path = os.path.join(COMPOSITE_DIR, output_name)
         cv2.imwrite(output_path, composite)
-
         composite_info.append({
             "composite": output_name,
             "render": os.path.basename(render),
             "background": os.path.basename(bg),
+            "camera_metadata": cam_meta,
             "composite_path": output_path
         })
-        print(f"Created composite {i+1}/{len(renders)}: {output_name}")
 
     with open(os.path.join(COMPOSITE_DIR, "composite_metadata.json"), "w") as f:
         json.dump(composite_info, f, indent=2)
 
-    print(f"\nCompositing complete! {len(composite_info)} images saved in {COMPOSITE_DIR}")
+    print(f"✅ Created {len(composite_info)} photorealistic composites")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,9 @@
 import numpy as np
 import trimesh
+import os
+from PIL import Image
+import io
+import json
 
 class CameraSystem:
     def __init__(self, resolution=(1024, 768)):
@@ -40,18 +44,46 @@ class CameraSystem:
             [-np.dot(s, eye), -np.dot(u, eye), np.dot(f, eye), 1]
         ])
     
-    def render_multiview(self, mesh, output_dir, base_name):
-        """Render object from multiple viewpoints"""
+    def get_camera_parameters(self, index):
+        """Get camera parameters for background matching"""
+        return {
+            'position': self.positions[index],
+            'rotation': self.angles[index],
+            'focal_length': 35,  # mm
+            'sensor_width': 32,  # mm
+            'resolution': self.resolution
+        }
+    
+    def render_with_metadata(self, mesh, output_dir, base_name):
+        """Render object with camera metadata using trimesh only"""
+        os.makedirs(output_dir, exist_ok=True)
         scene = trimesh.Scene()
         scene.add_geometry(mesh)
         scene.camera.resolution = self.resolution
         
+        metadata = []
         for i in range(len(self.positions)):
             # Set camera transform
             scene.camera_transform = self.get_view_matrix(i)
             
-            # Render
-            png = scene.save_image(visible=False)
-            img = Image.open(io.BytesIO(png))
-            output_path = os.path.join(output_dir, f"{base_name}_view{i}.png")
-            img.save(output_path)
+            try:
+                # Render using trimesh's built-in method
+                png = scene.save_image(visible=False)
+                img = Image.open(io.BytesIO(png))
+                output_path = os.path.join(output_dir, f"{base_name}_view{i}.png")
+                img.save(output_path)
+                
+                # Store camera parameters
+                metadata.append({
+                    'image_path': output_path,
+                    'camera_params': self.get_camera_parameters(i)
+                })
+            except Exception as e:
+                print(f"Error rendering view {i}: {str(e)}")
+                continue
+        
+        # Save metadata
+        with open(os.path.join(output_dir, f"{base_name}_metadata.json"), 'w') as f:
+            json.dump(metadata, f, indent=2)
+            
+        return metadata
